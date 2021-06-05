@@ -62,6 +62,16 @@ public class TestController {
         return "adminpage";
     }
 
+    @GetMapping("/postpage.do")
+    public String postPage(Model model){
+        try{
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return "postpage";
+    }
+
     @GetMapping("/test.do")
     public String test(Model model){
         try{

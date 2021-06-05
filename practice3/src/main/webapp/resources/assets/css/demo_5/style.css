@@ -7821,7 +7821,14 @@ pre {
   margin-left: -0.75rem;
   align-items: center;
   justify-content: space-between}
-
+.row1 {
+  float:right;
+  display: flex;
+  margin-right: -0.75rem;
+  /* width: 80%; */
+  margin-left: -0.75rem;
+  align-items: center;
+  margin-right:-60px}
 .no-gutters {
   margin-right: 0;
   margin-left: 0; }
